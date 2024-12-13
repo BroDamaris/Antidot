@@ -94,15 +94,17 @@ Our project is an application development that aims to provide a platform based 
 
 ## **Video Presentation**
 
-- [Antidot App Overview](https://youtu.be/9wxUcroXE1k)  
-  Watch this short video presentation to learn more about Antidot, its features, and how it works.
+Watch this short video presentation to learn more about Antidot, its features, and how it works.
+[![Antidot App Overview](https://img.youtube.com/vi/9wxUcroXE1k/0.jpg)](https://youtu.be/9wxUcroXE1k)  
+Click the thumbnail to watch the presentation video.
 
 ---
 
 ## **Demo Video**
 
-- [Antidot App Demo](https://drive.google.com/file/d/1ggval2dWTKV3GKnHIDHkrRtietQuGOuB/view)  
-  See the app in action with this demo video showcasing its functionalities and user interface.
+See the app in action with this demo video showcasing its functionalities and user interface.
+[![Antidot App Demo](https://drive.google.com/uc?id=1ggval2dWTKV3GKnHIDHkrRtietQuGOuB)](https://drive.google.com/file/d/1ggval2dWTKV3GKnHIDHkrRtietQuGOuB/view)  
+Click the thumbnail to view the app demo.
 
 ---
 
