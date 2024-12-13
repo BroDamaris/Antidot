@@ -109,7 +109,7 @@ Our project is an application development that aims to provide a platform based 
 <p>https://drive.google.com/file/d/11kNlyQymdz-Z8YmC7i5gJ5-n92kdncCZ/view?usp=drive_link (Antidot.APK)</p>
 
 ## **Video Presentation**
-<p>(https://youtu.be/9wxUcroXE1k (Video Presentation))</p>
+<p>https://youtu.be/9wxUcroXE1k (Video Presentation)</p>
 
 ## **Demo Video**
 <p>https://drive.google.com/file/d/1ggval2dWTKV3GKnHIDHkrRtietQuGOuB/view (Demo Video)</p>
