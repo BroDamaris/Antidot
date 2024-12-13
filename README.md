@@ -94,8 +94,8 @@ Our project is an application development that aims to provide a platform based 
 
 ## **Dataset**
 
-<p><a href="https://www.kaggle.com/datasets/choongqianzheng/disease-and-symptoms-dataset/data">(Dataset from Kaggle)</a></p>
-<p><a href="https://drive.google.com/drive/folders/1pQhA7oYWb_O-fXtIIthdZoL0ptYfNJyn">(Antidot Dataset)</a></p>
+<p>https://www.kaggle.com/datasets/choongqianzheng/disease-and-symptoms-dataset/data (Dataset from Kaggle)</a></p>
+<p>https://drive.google.com/drive/folders/1pQhA7oYWb_O-fXtIIthdZoL0ptYfNJyn (Antidot Dataset)</a></p>
 
 ## **Deployed Link**
 
@@ -103,4 +103,13 @@ Our project is an application development that aims to provide a platform based 
 <p>https://flask-dot-united-planet-442804-p8.et.r.appspot.com (Machine Learning Backend)</p>
 
 ## **Api Documentation**
-<p>
+<p>https://documenter.getpostman.com/view/37600977/2sAYBd6T5U (Api Documentation)</p>
+
+## **Download APP**
+<p>https://drive.google.com/file/d/11kNlyQymdz-Z8YmC7i5gJ5-n92kdncCZ/view?usp=drive_link (Antidot.APK)</p>
+
+## **Video Presentation**
+<p>(https://youtu.be/9wxUcroXE1k (Video Presentation))</p>
+
+## **Demo Video**
+<p>https://drive.google.com/file/d/1ggval2dWTKV3GKnHIDHkrRtietQuGOuB/view (Demo Video)</p>
