@@ -92,24 +92,48 @@ Health Innovation: Empowering Vulnerable Communities for Health and Well-being
 Our project is an application development that aims to provide a platform based on the implementation of machine learning for predictive diagnostics to combat the growing issue of antibiotic resistance in Indonesia. This is an important issue marked by the launch of Stranas AMR for Health Sector 2025-2029 by the Ministry of Health in Indonesia. Antibiotic resistance has escalated due to overuse of antibiotics and misdiagnosis of a disease. This trend leads to Antimicrobial Resistance (AMR), where pathogens adapt to survive treatment and potentially cause medical complications. This problem is exacerbated by the lack of an early warning system to predict antibiotic resistance trends in patients as a preventive measure. Our app offers a predictive diagnostic solution to predict the disease and its cause based on the symptoms experienced. The prediction result will be the core reference in providing recommendations for the appropriate use of antibiotics based on the classification of symptoms and diseases experienced. Our core research question is how predictive analytics can affect antibiotic prescribing and recommendations. By leveraging machine learning, we aim to empower healthcare providers and users through a platform that identifies and mitigates antibiotic resistance early, as a transformative impact on Indonesian public health.
 </p>
 
-## **Dataset**
-
-<p>https://www.kaggle.com/datasets/choongqianzheng/disease-and-symptoms-dataset/data (Dataset from Kaggle)</a></p>
-<p>https://drive.google.com/drive/folders/1pQhA7oYWb_O-fXtIIthdZoL0ptYfNJyn (Antidot Dataset)</a></p>
-
-## **Deployed Link**
-
-<p>https://backend-dot-united-planet-442804-p8.et.r.appspot.com (Backend API)</p>
-<p>https://flask-dot-united-planet-442804-p8.et.r.appspot.com (Machine Learning Backend)</p>
-
-## **Api Documentation**
-<p>https://documenter.getpostman.com/view/37600977/2sAYBd6T5U (Api Documentation)</p>
-
-## **Download APP**
-<p>https://drive.google.com/file/d/11kNlyQymdz-Z8YmC7i5gJ5-n92kdncCZ/view?usp=drive_link (Antidot.APK)</p>
-
 ## **Video Presentation**
-<p>https://youtu.be/9wxUcroXE1k (Video Presentation)</p>
+
+- [Antidot App Overview](https://youtu.be/9wxUcroXE1k)  
+  Watch this short video presentation to learn more about Antidot, its features, and how it works.
+
+---
 
 ## **Demo Video**
-<p>https://drive.google.com/file/d/1ggval2dWTKV3GKnHIDHkrRtietQuGOuB/view (Demo Video)</p>
+
+- [Antidot App Demo](https://drive.google.com/file/d/1ggval2dWTKV3GKnHIDHkrRtietQuGOuB/view)  
+  See the app in action with this demo video showcasing its functionalities and user interface.
+
+---
+
+## **Dataset**
+
+- [Disease and Symptoms Dataset (Kaggle)](https://www.kaggle.com/datasets/choongqianzheng/disease-and-symptoms-dataset/data)  
+  This dataset contains a wide range of symptoms and corresponding diseases used in the machine learning model for disease prediction.
+
+- [Antidot Dataset (Google Drive)](https://drive.google.com/drive/folders/1pQhA7oYWb_O-fXtIIthdZoL0ptYfNJyn)  
+  Custom dataset for Antidot, used to train the app's backend models and improve prediction accuracy.
+
+---
+
+## **Deployed Backend API**
+
+- [Backend API (Node.js & Express)](https://backend-dot-united-planet-442804-p8.et.r.appspot.com)  
+  The API for managing app data, including disease diagnosis requests, symptom processing, and medication reminders.
+
+- [Machine Learning Backend (Flask)](https://flask-dot-united-planet-442804-p8.et.r.appspot.com)  
+  A Flask-powered API that interfaces with the machine learning model to provide disease predictions based on symptoms entered by users.
+
+---
+
+## **API Documentation**
+
+- [Antidot API Documentation](https://documenter.getpostman.com/view/37600977/2sAYBd6T5U)  
+  Detailed documentation on how to interact with Antidot’s APIs, including endpoints for disease diagnosis, medication reminders, and more.
+
+---
+
+## **Download the Antidot App**
+
+- [Antidot APK Download](https://drive.google.com/file/d/11kNlyQymdz-Z8YmC7i5gJ5-n92kdncCZ/view?usp=drive_link)  
+  Download the Antidot APK to install the app on your Android device and start managing your health today.
