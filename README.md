@@ -102,7 +102,7 @@ Watch this short video presentation to learn more about Antidot, its features, a
 ## **Demo Video**
 
 - [Antidot App Demo](https://drive.google.com/file/d/1ggval2dWTKV3GKnHIDHkrRtietQuGOuB/view)
-See the app in action with this demo video showcasing its functionalities and user interface.
+  See the app in action with this demo video showcasing its functionalities and user interface.
 
 ---
 
