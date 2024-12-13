@@ -86,6 +86,7 @@ exports.createDiagnosis = async (req, res) => {
         diagnosis: {
           userID,
           diagnosisID: diagnosis.diagnosisID,
+          antibioticID: antibiotic.antibioticID,
           disease,
           probability,
           disease_description: antibiotic.disease_description,
@@ -239,6 +240,81 @@ exports.getAllSymptom = async (req, res) => {
     res.status(500).json({
       status: "fail",
       message: error.message,
+    });
+  }
+};
+
+exports.getDiagnosis = async (req, res) => {
+  try {
+    const { diagnosisID } = req.params;
+
+    // Ambil data diagnosis berdasarkan diagnosisID
+    const diagnosis = await Diagnosis.findOne({
+      where: { diagnosisID },
+    });
+
+    // Jika diagnosis tidak ditemukan
+    if (!diagnosis) {
+      return res.status(404).json({
+        status: "fail",
+        message: "Diagnosis tidak ditemukan.",
+      });
+    }
+
+    // Ambil data antibiotik berdasarkan disease yang ditemukan di diagnosis
+    const antibiotic = await Antibiotic.findOne({
+      where: { disease: diagnosis.disease },
+      attributes: [
+        "antibioticID",
+        "disease_description",
+        "antibiotics_name",
+        "antibiotics_usage",
+        "antibiotics_description",
+        "antibiotics_dosage",
+        "antibiotic_frequency_usage_per_day",
+        "antibiotic_total_days_of_usage",
+        "others",
+        "antibiotic_image",
+      ],
+    });
+
+    // Jika antibiotik tidak ditemukan
+    if (!antibiotic) {
+      return res.status(404).json({
+        status: "fail",
+        message: `Antibiotik untuk penyakit ${diagnosis.disease} tidak ditemukan.`,
+      });
+    }
+
+    // Gabungkan data diagnosis dengan antibiotik dan kirimkan respons
+    return res.status(200).json({
+      status: "success",
+      message: "Diagnosis berhasil ditemukan.",
+      diagnosis: {
+        diagnosisID: diagnosis.diagnosisID,
+        userID: diagnosis.userID,
+        antibioticID: antibiotic.antibioticID,
+        disease: diagnosis.disease,
+        disease_description: antibiotic.disease_description,
+        antibiotic_name: antibiotic.antibiotics_name,
+        antibiotics_usage: antibiotic.antibiotics_usage,
+        antibiotics_description: antibiotic.antibiotics_description,
+        antibiotics_dosage: antibiotic.antibiotics_dosage,
+        antibiotic_frequency_usage_per_day:
+          antibiotic.antibiotic_frequency_usage_per_day,
+        antibiotic_total_days_of_usage:
+          antibiotic.antibiotic_total_days_of_usage,
+        others: antibiotic.others,
+        antibiotic_image: antibiotic.antibiotic_image,
+        createdAt: diagnosis.createdAt,
+        updatedAt: diagnosis.updatedAt,
+      },
+    });
+  } catch (error) {
+    console.error("Error in getDiagnosis:", error.message);
+    return res.status(500).json({
+      status: "fail",
+      message: error.message || "Terjadi kesalahan internal.",
     });
   }
 };

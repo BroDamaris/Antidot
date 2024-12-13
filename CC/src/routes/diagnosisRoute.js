@@ -7,5 +7,6 @@ const authenticate = require("../middleware/authMiddleware"); // Middleware untu
 router.post("/predict", authenticate, diagnosisController.createDiagnosis);
 router.get("/history", authenticate, diagnosisController.diagnosisHistory);
 router.get("/symptoms", authenticate, diagnosisController.getAllSymptom);
+router.get("/:diagnosisID", authenticate, diagnosisController.getDiagnosis);
 
 module.exports = router;
